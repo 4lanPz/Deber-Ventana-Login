@@ -5,7 +5,7 @@ y en el otro se encuentra la parte del login
 En el primero se incluye los botones de guardar datos y los cuadros en donde se ingresa
 los datos JTextField, estos valores se tienen que aponer por teclado y *DAR ENTER* para que funcione
 de alli al dar a guardar se va a crear un archivo, esto se realiza al crear el archivo indicando donde
-se va a crear y luego con BufferdWriter que es una lase que nos permite escribir texto en un Outputstream, utilizando un buffer para proporcionar una escritura eficiente de caracteres, arrays y strings o sea que permite guardar los datos que pongamos en el JTextField como String,
+se va a crear y luego con BufferdWriter que es una clase que nos permite escribir texto en un Outputstream, utilizando un buffer para proporcionar una escritura eficiente de caracteres, arrays y strings o sea que permite guardar los datos que pongamos en el JTextField como String,
 esto se va a escribir, pero al momento de guardar se va a guardar de la siguiente manera
 (usuario:contraseña) con un salto de linea, esto para luego verificar en el programa de login, los datos del usuario se guardan en el archivo.dat 
 Luego en el boton login lo que hace es ejecutar el JPanel que se explica a continuacion
