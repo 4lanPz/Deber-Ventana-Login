@@ -61,6 +61,8 @@ public class datos {
             public void actionPerformed(ActionEvent e) {
                 con1++;
                 LContador.setText("Se ha ingresado: "+con1+" Usuarios");
+                /*CAMBIAR LA DIRECCION PARA QUE FUNCIONE, EL ARCHVO
+                LOGIN TAMBIEN TOCA CAMBIAR A ESTA MISMA DIRECCION*/
                 File file= new File("C://Users//alans//Documents//archivo.dat");
                 try {
                     FileWriter fileWriter = new FileWriter(file, true);
