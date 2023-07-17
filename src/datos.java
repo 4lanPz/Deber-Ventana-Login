@@ -94,5 +94,5 @@ public class datos {
         frame.pack();
         frame.setVisible(true);
     }
-    }
+}
 
