@@ -3,6 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
 
+
 public class datos {
     int con1=0;
     String Usuario,Pasword , A1, A2;
